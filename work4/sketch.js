@@ -1,3 +1,5 @@
+//I'm not sure if I understand the goal of this sketch.
+//what is the relationship between the two colors, and which example from Albers does this recreate? 
 function setup() {
   createCanvas(400,400);
   rectMode(CENTER);
