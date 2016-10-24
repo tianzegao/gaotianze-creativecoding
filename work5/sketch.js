@@ -3,7 +3,9 @@ function setup() {
   beauty(20);
 }
 
-
+//what does the parameter i represent?  Please use more descriptive variable and parameter names
+//Also, consider instead of parameterizing a single color property, have a function parameter that scales the overall
+//shape in the x or y dimensions.  Or maybe a parameter to position the character?
 function beauty(i){
   
   noStroke();
