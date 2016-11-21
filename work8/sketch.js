@@ -18,8 +18,8 @@ var angle = 0.0;
 var amplitude = 200;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight); 
-  background(100);
+  createCanvas(800,800); 
+  background(0,0,0);
   //add the particles to our empty particle system array
   //translate(width/2, height/2);
   for(var i=0; i < 1000; i++){
