@@ -5,7 +5,7 @@
   var partsOfSpeech = [];
   var newSpeech=[];
   var newSentence=[];
-  var newSentenceString;
+  var newSentenceString=[];
 
   function setup() {
   words = RiTa.tokenize(couplet);
@@ -23,7 +23,7 @@
    for(var i=0; i<newSpeech.length; i++){
     newSentence.push(lexicon.randomWord(newSpeech[i]));
   }
-  //newSentenceString = newSentence.join(‘ ’);
+  //newSentenceString = newSentence.join(‘,’);
   generateHaiku();
 }
 
